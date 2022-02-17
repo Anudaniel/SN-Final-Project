@@ -1,0 +1,200 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hina Mincho', serif;
+}
+
+
+.img-contact {
+    background-image: url("https://images.unsplash.com/photo-1551806235-6692cbfc690b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    width: 100%;
+    height: 80vh;
+    filter: brightness(50%);
+}
+
+.img-contact h2 {
+    text-align: center;
+    padding-top: 15%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.img-contact p {
+    text-align: center;
+    padding-top: 8%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.contact-box {
+    background-color: #EFEFEF;
+    padding: 60px 0;
+}
+
+.contact-box img {
+    width: 100%;
+}
+
+.contact-content {
+    background: #FFFFFF;
+    padding: 20px 20px;
+    width: 90%;
+}
+
+.contact-form {
+    text-align: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.contact-form h4 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    outline: none;
+    width: 100%;
+    height: 40%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 50%;
+}
+
+textarea[placeholder] {
+    font-size: 1rem;
+    font-family: 'Hina Mincho', serif;
+}
+
+input[placeholder] {
+    font-size: 1rem;
+    font-family: 'Hina Mincho', serif;
+}
+
+.form-btn {
+    background-color: #86340A;
+    border-radius: 12px;
+    font-family: 'Hina Mincho', serif;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 40px 0;
+    width: 80px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.news {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.news h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.news input[type="email"] {
+    background: #FFFFFF;
+    border: 2px solid #86340A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 70%;
+    height: 51px;
+    outline: none;
+    border: none;
+}
+
+.news button {
+    font-family: 'Hina Mincho', serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 15%;
+    height: 51px;
+    background: #86340A;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: -15%;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+
+@media (max-width: 903px) {
+
+    .news {
+        background-color: #EFEFEF;
+        text-align: center;
+        padding: 60px 0;
+    }
+    
+    .news h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    
+    .news input[type="email"] {
+        width: 50%;
+        height: 51px;
+    }
+    
+    .news button {
+        font-weight: 400;
+        font-size: 16px;
+        width: 13%;
+        margin-left: -10%;
+    }
+}
+
+@media (mx-width: 760px) {
+
+    .news h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    
+    .news input[type="email"] {
+        width: 20%;
+        height: 51px;
+    }
+    
+    .news button {
+        font-weight: 400;
+        font-size: 16px;
+        width: 15%;
+        margin-left: -8%;
+    }
+
+    news[placeholder] {
+        display: none;
+    }
+}
